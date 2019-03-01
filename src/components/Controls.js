@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Controls({ title, subtitle }) {
+function Controls({ title, subtitle, onChange }) {
 
   return (
     <form>
