@@ -1,5 +1,6 @@
 import React, { PureComponent} from 'react';
-
+import Controls from './Controls';
+import Display from './Display';
 
 export default class App extends PureComponent {
   state = {
@@ -21,6 +22,10 @@ export default class App extends PureComponent {
           subtitle={subtitle}
           onChange={this.onChange}
         />
+        <Display
+          title={title}
+          subtitle={subtitle}
+        />  
       </>  
     );
   }
