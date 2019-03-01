@@ -1,15 +1,16 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Display from './Display';
+import Controls from './Controls';
 
 
-describe('Display Test', () => {
+describe('Controls Test ', () => {
   it('matches a snapshot', () => {
     const tree = renderer.create(
-      <Display/>
+      <Controls/>
     ).toJSON();
   
     expect(tree).toMatchSnapshot();
 
   });
 });
+
