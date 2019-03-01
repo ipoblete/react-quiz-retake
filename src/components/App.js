@@ -3,6 +3,7 @@ import Controls from '../components/Controls';
 import Display from './Display';
 
 class App extends Component {
+
   state = {
     title: '',
     subtitle: ''
