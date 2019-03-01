@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`TextSelctor matches snapshot 1`] = `
-<input
-  name="text"
-  onChange={[MockFunction]}
-  value="ryan"
-/>
-`;
