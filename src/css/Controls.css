@@ -1,0 +1,14 @@
+.form {
+  text-align: center;
+  padding: 20px;
+
+  .title {
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .subtitle {
+    font-weight: bold;
+    padding: 10px;
+  }
+}

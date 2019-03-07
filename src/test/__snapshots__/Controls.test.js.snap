@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls matches a snapshot 1`] = `
+<form>
+  <label>
+    Title:
+  </label>
+  <input
+    name="title"
+    type="text"
+  />
+  <label>
+    Subtitle:
+  </label>
+  <input
+    name="subtitle"
+    type="text"
+  />
+</form>
+`;
